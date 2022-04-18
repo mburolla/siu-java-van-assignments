@@ -1,7 +1,8 @@
 # Java I: Exercises
 
 ### Ex. 1 Uppercase Name
-Write a Java program that prompts the user to enter their name, and returns their name in upper case.
+Write a Java program that uses the [Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html) 
+which prompts the user to enter their name, and returns their name in upper case.
 
 Example:
 
