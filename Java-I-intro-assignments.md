@@ -65,16 +65,55 @@ Output:
 ```
 
 # Ex. 5
+Consider the following array:
 
+```java
+int[] ints = {1, 2, 3, 5, 6, 9, 11};
+```
 
+Write a function that returns the number of missing numbers from this array.
+
+Example:
+```
+var missingNumbers = findMissingNumbers(ints);
+System.out.println(missingNumbers);
+```
+Output
+```
+4,7,8,10
+```
 
 # Ex. 6
+Consider the following array:
+```java
+int[] ints = {0,1,1,1,0,0,1,0,0,1,0,0,0};
+```
+
+Write a Java function that returs a `String` with all the zeros on the left side and all the ones on the right side:
+
+Example:
+```java
+0000000011111
+```
 
 # Ex. 7
+Write a Java function that retuns a random number from `ArrayList` of type `Integer`.
 
 # Ex. 8
+Write a function that calculates the total cost of a shopping cart.  The items
+in the shopping cart are contained in an `ArrayList` of type `BigDecimal`.  
+
+The total cost is calculated by the following:
+- Sum all the items in the ArrayList
+- Apply 10% sale tax
+- Apply shipping and handling:
+  - Add $5.00 for orders under $10.00
+  - Add $10.00 for orderes > 10.00 and < $20.00
+  - Free shipping and handling for orders > $20.00
 
 # Ex. 9
+
+
 
 # Ex. 10
 
