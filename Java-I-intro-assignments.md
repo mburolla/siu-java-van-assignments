@@ -104,11 +104,11 @@ Write a function that calculates the total cost of a shopping cart.  The items
 in the shopping cart are contained in an `ArrayList` of type `BigDecimal`.  
 
 The total cost is calculated by the following:
-- Sum all the items in the ArrayList
+- Sum all cost of all the items in the `ArrayList`
 - Apply 10% sale tax
 - Apply shipping and handling:
   - Add $5.00 for orders under $10.00
-  - Add $10.00 for orderes > 10.00 and < $20.00
+  - Add $4.00 for orders > $10.00 and < $20.00
   - Free shipping and handling for orders > $20.00
 
 # Ex. 9
