@@ -104,17 +104,32 @@ Write a function that calculates the total cost of a shopping cart.  The items
 in the shopping cart are contained in an `ArrayList` of type `BigDecimal`.  
 
 The total cost is calculated by the following:
-- Sum all cost of all the items in the `ArrayList`
-- Apply 10% sale tax
-- Apply shipping and handling:
+- Sum the cost of all the items in the `ArrayList`
+- Apply 10% sales tax
+- Apply shipping and handling fees:
   - Add $5.00 for orders under $10.00
   - Add $4.00 for orders > $10.00 and < $20.00
   - Free shipping and handling for orders > $20.00
 
 # Ex. 9
+Write a function that returns a `String` if an `ArrayList` of type `Integer` is even or odd.
 
+Example:
+```java
+var result = checkArray(myArray);
+System.out.println(result);
+```
 
+Output:
+```java
+Odd
+```
 
 # Ex. 10
+Write a Java function to determine if a password is valid using the following validation rules:
 
+- A password must have at least ten characters
+- A password consists of only letters and digits
+- A password must contain at least two digits
 
+The function returns a `Boolean` `true` if the password is valid, otherwise `false`.
